@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
-import SearchBar from "@/components/SearchBar";
 import { Providers } from "./providers";
 import { FilterProvider } from "@/lib/filterContext";
 
@@ -38,7 +37,6 @@ export default function RootLayout({
         <FilterProvider>
           <Providers>
             <Header />
-            <SearchBar />
             {children}
           </Providers>
         </FilterProvider>

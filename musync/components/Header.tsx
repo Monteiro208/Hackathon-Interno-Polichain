@@ -30,7 +30,7 @@ export default function Header() {
             Log in
           </Link>
           <Link
-            href="/signup"
+            href="/cadastro"
             className="px-5 py-2 rounded-md bg-[#f5f8ff] text-[#0a0f24] font-medium hover:opacity-90"
           >
             Sign up
