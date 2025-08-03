@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Victor\\Documents\\VSC.Projects\\Hackathon-Interno\\musync\\contracts\\SampleMarket.sol": {
+      "lastModificationDate": 1754080634743,
+      "contentHash": "537d9773079866ba9e74a94eb6b331b0",
+      "sourceName": "contracts/SampleMarket.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "SampleMarket"
+      ]
+    }
+  }
+}

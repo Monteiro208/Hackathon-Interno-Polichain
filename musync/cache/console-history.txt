@@ -1,0 +1,9 @@
+await Market.addSample(2, "https://example.com/sad-piano.wav", ethers.utils.parseEther("0.01"));
+await Market.addSample(1, "https://example.com/happy-guitar.wav", ethers.utils.parseEther("0.01"));
+await Market.addsample(1, "https://example.com/happy-guitar.wav", ethers.utils.parseEther("0.01"));
+const Market = await ethers.getContractAt("SampleMarket", addr);
+const addr   = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+await Market.addSample(2, "https://example.com/sad-piano.wav", ethers.utils.parseEther("0.01"));
+await Market.addSample(1, "https://example.com/happy-guitar.wav", ethers.utils.parseEther("0.01"));
+const Market = await ethers.getContractAt("SampleMarket", addr);
+const addr   = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
